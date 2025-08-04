@@ -1,0 +1,16 @@
+{
+  "name": "test-cypress",
+  "version": "1.0.0",
+  "description": "Practica con cypress",
+  "main": "index.js",
+  "scripts": {
+    "test-Chrone": "cypress run --spec cypress/e2e/testbanco.cy.js --browser chrome",
+    "test-Firefox": "cypress run --spec cypress/e2e/testbanco.cy.js --browser firefox",
+    "test-Edge": "cypress run --spec cypress/e2e/testbanco.cy.js --browser edge"
+  },
+  "author": "Steven",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^14.3.2"
+  }
+}
